@@ -4,7 +4,7 @@
 # See README.rst file on addons root folder for license details
 
 {
-    "name": "Comunicaciones Beehive Ofimatica",
+    "name": "Comunidades Beehive Ofimatica",
     'version': '12.0.1.1.0',
     "author": "Gabriel Pabón",
     "website": "https://www.ofimaticasoluciones.com.co",
