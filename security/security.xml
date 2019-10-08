@@ -3,8 +3,8 @@
 <odoo>
     <!-- create new category -->
     <record id="category_ofimatica_communities" model="ir.module.category" >
-            <field name="name">Obligaciones</field>
-            <field name="description">Modulo Obligaciones beehive.</field>
+            <field name="name">Comunidades</field>
+            <field name="description">Modulo Comunidades beehive.</field>
     </record>
     <!-- add category to groups -->
     <!--Group for property manager -->
