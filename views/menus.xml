@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <odoo>
     <data>
-        <menuitem name="Mi Comunidad" id="ofimatica_communities_parent_menu" sequence="55" web_icon="ofimatica_communities,static/description/icon4.png"/>
+        <menuitem name="Mi Comunidad" id="ofimatica_communities_parent_menu" sequence="4" web_icon="ofimatica_communities,static/description/icon4.png"/>
         <menuitem name="Vecinos" id="ofimatica_communities_recibos_menu" action="board.open_board_my_dash_action" parent="ofimatica_communities_parent_menu" sequence="10"/>
         <menuitem name="Calificacion de mis vecinos" id="ofimatica_communities_vecinos_menu"  action="board.open_board_my_dash_action" parent="ofimatica_communities_parent_menu" sequence="20" />
         <menuitem name="PQRS" id="ofimatica_communities_pqrs_menu" action="board.open_board_my_dash_action" parent="ofimatica_communities_parent_menu" sequence="50"/>
