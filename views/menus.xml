@@ -2,9 +2,9 @@
 <odoo>
     <data>
         <menuitem name="Mi Comunidad" id="ofimatica_communities_parent_menu" sequence="55" web_icon="ofimatica_communities,static/description/icon.png"/>
-        <menuitem name="Vecinos" id="ofimatica_liabilities_recibos_menu" action="liabilities_action_invoice_tree" parent="ofimatica_communities_parent_menu" sequence="10"/>
+        <menuitem name="Vecinos" id="ofimatica_communities_recibos_menu" action="board.open_board_my_dash_action" parent="ofimatica_communities_parent_menu" sequence="10"/>
         <menuitem name="Calificacion de mis vecinos" id="ofimatica_communities_vecinos_menu"  action="board.open_board_my_dash_action" parent="ofimatica_communities_parent_menu" sequence="20" />
-        <menuitem name="PQRS" id="ofimatica_communities_pqrs_menu" action="liabilities_action_invoice_refund_out_tree" parent="ofimatica_communities_parent_menu" sequence="50"/>
+        <menuitem name="PQRS" id="ofimatica_communities_pqrs_menu" action="board.open_board_my_dash_action" parent="ofimatica_communities_parent_menu" sequence="50"/>
         <menuitem name="Publicidad de Servicios" id="ofimatica_comunities_publicidad_menu" action="board.open_board_my_dash_action" parent="ofimatica_communities_parent_menu" sequence="90"/>
         <menuitem name="E-commerce" id="ofimatica_communities_ecommerce_menu" action="board.open_board_my_dash_action" parent="ofimatica_communities_parent_menu" sequence="90"/>
         <menuitem name="Vehiculos" id="ofimatica_ecommerce_vehiculos_menu" action="board.open_board_my_dash_action" parent="ofimatica_communities_ecommerce_menu" sequence="110"/>
